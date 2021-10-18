@@ -50,21 +50,32 @@ h2 {
   font-size: 5vh;
 }
 
+p {
+  color: var(--skriftfarve);
+  font-family: var(--font);
+  font-size: 2.5vh;
+}
+
 .introduktion h3 {
   color: var(--skriftfarve);
   font-family: var(--font);
   font-weight: bolder;
   font-size: 5vh;
-  padding: 4vw;
+  padding-top: 4vw;
 }
 
 .introduktion {
-  margin-top: 10vh;
+  margin-top: 7vh;
   margin-left: 10vw;
   width: 80%;
   border: var(--neon) 5px solid;
   display: flex;
   flex-direction: row;
+  margin-bottom: 7vh;
+}
+
+.introduktion p {
+  margin-right: 5vw;
 }
 
 a {
@@ -122,5 +133,29 @@ nav {
 
 .afmig {
   width: 50%;
+  height: 50%;
   padding: 4vw;
+}
+
+.contact {
+  margin-bottom: 5vw;
+}
+
+.social a {
+  color: var(--neon);
+  font-family: var(--font);
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 3vh;
+  text-decoration: none;
+  margin-right: 5vw;
+}
+.social a:hover {
+  color: var(--skriftfarve);
+  text-decoration: underline;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
 }
