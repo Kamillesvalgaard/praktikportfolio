@@ -4,6 +4,10 @@
   --neon: #59bf61;
   --font: "Scheherazade New";
 }
+
+body {
+  background-color: var(--baggrundsfarve);
+}
 .bagvid {
   object-fit: cover;
   width: 100%;
@@ -46,12 +50,21 @@ h2 {
   font-size: 5vh;
 }
 
-h3 {
-  z-index: 0;
+.introduktion h3 {
   color: var(--skriftfarve);
   font-family: var(--font);
-  top: 90vh;
-  left: 40%;
+  font-weight: bolder;
+  font-size: 5vh;
+  padding: 4vw;
+}
+
+.introduktion {
+  margin-top: 10vh;
+  margin-left: 10vw;
+  width: 80%;
+  border: var(--neon) 5px solid;
+  display: flex;
+  flex-direction: row;
 }
 
 a {
@@ -82,4 +95,32 @@ a {
     transform: scale(1.07);
     opacity: 1;
   }
+}
+
+nav a {
+  color: var(--neon);
+  font-family: var(--font);
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 4vh;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: var(--skriftfarve);
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.afmig {
+  width: 50%;
+  padding: 4vw;
 }
