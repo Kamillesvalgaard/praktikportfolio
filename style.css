@@ -67,6 +67,13 @@ li {
   padding-top: 4vw;
 }
 
+.introduktion2 h4 {
+  color: var(--skriftfarve);
+  font-family: var(--font);
+  font-weight: bolder;
+  font-size: 3vh;
+}
+
 .introduktion {
   margin-top: 7vh;
   margin-left: 10vw;
@@ -193,4 +200,46 @@ nav {
 
 .tools {
   margin-bottom: 5vw;
+}
+
+.eks {
+  margin-top: 3vw;
+  margin-bottom: 12vh;
+}
+
+.radio {
+  margin-left: 3vw;
+}
+
+.radio a {
+  color: var(--neon);
+  font-family: var(--font);
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 3vh;
+  text-decoration: none;
+  margin-right: 5vw;
+}
+.radio a:hover {
+  color: var(--skriftfarve);
+  text-decoration: underline;
+}
+
+.radio2 a {
+  color: var(--neon);
+  font-family: var(--font);
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 3vh;
+  text-decoration: none;
+  margin-right: 5vw;
+}
+.radio2 a:hover {
+  color: var(--skriftfarve);
+  text-decoration: underline;
+}
+.veatery {
+  margin-right: 3vw;
+  width: 45%;
+  height: auto;
 }
