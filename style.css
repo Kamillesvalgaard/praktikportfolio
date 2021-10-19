@@ -82,6 +82,7 @@ li {
   display: flex;
   flex-direction: row;
   margin-bottom: 7vh;
+  background-color: var(--baggrundsfarve);
 }
 
 .introduktion2 {
@@ -91,6 +92,7 @@ li {
   border: var(--neon) 5px solid;
   margin-bottom: 7vh;
   padding-left: 2vw;
+  background-color: var(--baggrundsfarve);
 }
 
 .introduktion p,
@@ -242,4 +244,16 @@ nav {
   margin-right: 3vw;
   width: 45%;
   height: auto;
+}
+
+.body1 {
+  background-image: url(body1.png);
+}
+
+.body2 {
+  background-image: url(body2.png);
+}
+
+.body3 {
+  background-image: url(body3.png);
 }
